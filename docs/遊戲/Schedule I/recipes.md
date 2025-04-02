@@ -5,6 +5,12 @@ coverStyle:
   layout: right
   width: 300
   compact: true
+tags:
+  - Schedule I
+  - 合成配方
+  - 藥物製作
+  - 成品樹
+  - 遊戲筆記
 createTime: 2025/04/02 21:34:35
 permalink: /article/lrypvr3h/
 ---
