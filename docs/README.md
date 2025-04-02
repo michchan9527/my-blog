@@ -7,18 +7,31 @@ config:
     full: true
     background: tint-plate
     hero:
-      name: Theme Plume
-      tagline: VuePress Next Theme
-      text: 一个简约的，功能丰富的 vuepress 文档&博客 主题
+      name: Game攻略收藏站
+      tagline: 收藏每一款熱愛的遊戲攻略
+      text: 筆記式整理、成品配方、任務攻略一站搞定
       actions:
-        -
-          theme: brand
-          text: 博客
+        - 
+          text: 查看全部文章
           link: /blog/
-        -
-          theme: alt
-          text: Github →
-          link: https://github.com/pengzhanbo/vuepress-theme-plume
+          type: primary
+        - 
+          text: 關於本站
+          link: /about/
+          type: secondary
+  -
+    type: features
+    features:
+      -
+        title: 多遊戲分類
+        icon: 🎮
+        details: 支援 Schedule I、Minecraft、GTA V等遊戲分類整理
+      - title: 筆記式攻略
+        icon: 📝
+        details: 用筆記的方式整理流程、合成、任務與經驗心得，方便自己也方便分享。
+      - title: 成品合成樹
+        icon: 🌳
+        details: 梳理每個終極產品的合成階段與原料來源，打造清楚易懂的合成流程圖。
   -
     type: blog
 ---

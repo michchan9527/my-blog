@@ -1,14 +1,34 @@
-.vp-tag-ae2y {
+.vp-tag-n1xb {
+  --vp-tag-color: #6aa1b7;
+  --vp-tag-hover-color: #5086a1;
+  --vp-tag-bg: rgba(131, 208, 218, 0.314);
+}
+.vp-tag-3c28 {
   --vp-tag-color: #d5393e;
   --vp-tag-hover-color: #b8272c;
   --vp-tag-bg: rgba(244, 63, 94, 0.14);
 }
-.vp-tag-o6f3 {
+.vp-tag-9n11 {
+  --vp-tag-color: #cc6699;
+  --vp-tag-hover-color: #be3f7f;
+  --vp-tag-bg: rgba(161, 54, 107, 0.14);
+}
+.vp-tag-2zev {
+  --vp-tag-color: #cc3366;
+  --vp-tag-hover-color: #d55680;
+  --vp-tag-bg: rgba(217, 102, 140, 0.2);
+}
+.vp-tag-8x35 {
   --vp-tag-color: #9966cc;
   --vp-tag-hover-color: #7171b8;
   --vp-tag-bg: rgba(83, 83, 167, 0.14);
 }
-.vp-tag-9psq {
+.vp-tag-vlt4 {
+  --vp-tag-color: #3366cc;
+  --vp-tag-hover-color: #5680d5;
+  --vp-tag-bg: rgba(102, 140, 217, 0.14);
+}
+.vp-tag-nrup {
   --vp-tag-color: #a6623b;
   --vp-tag-hover-color: #c17950;
   --vp-tag-bg: rgba(199, 134, 97, 0.2411);

@@ -16,8 +16,8 @@
 </thead>
 <tbody>
 <tr>
-<td>綠色裂痕（未知）</td>
-<td>?</td>
+<td>綠色裂痕（Green Crack）</td>
+<td>$5</td>
 <td>感冒藥</td>
 <td>$5</td>
 <td>Aspen Smegma</td>
@@ -38,7 +38,7 @@
 <tbody>
 <tr>
 <td>Aspen Smegma</td>
-<td>-</td>
+<td>$10</td>
 <td>辣椒</td>
 <td>$7</td>
 <td>Mega Express</td>
@@ -59,7 +59,7 @@
 <tbody>
 <tr>
 <td>Mega Express</td>
-<td>-</td>
+<td>$17</td>
 <td>機油</td>
 <td>$6</td>
 <td>Sexy Balls</td>
@@ -80,7 +80,7 @@
 <tbody>
 <tr>
 <td>Sexy Balls</td>
-<td>-</td>
+<td>$23</td>
 <td>可樂</td>
 <td>$2</td>
 <td>Afghan Monkey</td>
@@ -101,7 +101,7 @@
 <tbody>
 <tr>
 <td>Afghan Monkey</td>
-<td>-</td>
+<td>$25</td>
 <td>扑熱息痛</td>
 <td>$3</td>
 <td>Nightmare Crystal</td>
@@ -122,7 +122,7 @@
 <tbody>
 <tr>
 <td>Nightmare Crystal</td>
-<td>-</td>
+<td>$28</td>
 <td>香蕉</td>
 <td>$2</td>
 <td>Extreme Puke</td>
@@ -143,7 +143,7 @@
 <tbody>
 <tr>
 <td>Extreme Puke</td>
-<td>-</td>
+<td>$30</td>
 <td>偉哥</td>
 <td>$4</td>
 <td><strong>Death Puke</strong> ✅</td>

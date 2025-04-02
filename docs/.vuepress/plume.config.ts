@@ -1,4 +1,6 @@
 import { defineThemeConfig } from 'vuepress-theme-plume'
+import { defineUserConfig } from 'vuepress'
+import { plumeTheme } from 'vuepress-theme-plume'
 import { navbar } from './navbar'
 import { notes } from './notes'
 
@@ -6,14 +8,15 @@ import { notes } from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: 'https://theme-plume.vuejs.press/plume.png',
+  logo: '/Logo.png',
 
   appearance: true,  // 配置 深色模式
 
   social: [
-    { icon: 'github', link: '/' },
+    { icon: 'discord', link: 'https://discord.com/users/320267626863394817' },
+    { icon: 'youtube', link: 'https://www.youtube.com/@Uooip' },
   ],
-  // navbarSocialInclude: ['github'], // 允许显示在导航栏的 social 社交链接
+  navbarSocialInclude: ['youtube'], // 允许显示在导航栏的 social 社交链接
   // aside: true, // 页内侧边栏， 默认显示在右侧
   // outline: [2, 3], // 页内大纲， 默认显示 h2, h3
 
@@ -38,12 +41,20 @@ export default defineThemeConfig({
    * @see https://theme-plume.vuejs.press/config/basic/#profile
    */
   profile: {
-    avatar: 'https://theme-plume.vuejs.press/plume.png',
-    name: 'My Vuepress Site',
-    description: '',
-    // circle: true,
-    // location: '',
-    // organization: '',
+    name: 'Felix',
+    description: '專注記錄每一款喜歡的遊戲攻略',
+    avatar: '/icon2.gif',
+    location: '香港',
+    organization: '遊戲愛好者',
+    circle: true,
+    layout: 'right', // 个人信息在左侧还是右侧，'left' | 'right'
+  },
+
+  locales: {
+    // 非内置语言的语言代码
+    '/': { 
+      archiveText: '歷史文章',
+    },
   },
 
   navbar,
