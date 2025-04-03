@@ -54,6 +54,7 @@ export default defineThemeConfig({
     // 非内置语言的语言代码
     '/': { 
       archiveText: '歷史文章',
+      blogText: '部落格',
     },
   },
 

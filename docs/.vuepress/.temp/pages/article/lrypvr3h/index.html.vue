@@ -150,7 +150,6 @@
 </tr>
 </tbody>
 </table>
-<hr>
 <h2 id="💰-原材料價格總表" tabindex="-1"><a class="header-anchor" href="#💰-原材料價格總表"><span>💰 原材料價格總表</span></a></h2>
 <table>
 <thead>
@@ -195,7 +194,6 @@
 </tbody>
 </table>
 <p>🧮 <strong>最小原材料成本合計：$34 + 綠色裂痕價格</strong></p>
-<hr>
 <h2 id="📌-備註" tabindex="-1"><a class="header-anchor" href="#📌-備註"><span>📌 備註</span></a></h2>
 <ul>
 <li>建議保存中間產品作為中繼儲備，可節省後期重複合成的時間。</li>
