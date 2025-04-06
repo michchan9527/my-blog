@@ -1,10 +1,6 @@
 ---
 title: Death Puke 產品
 cover: /Schedule I/Death Puke.png
-coverStyle:
-  layout: right
-  width: 300
-  compact: true
 tags:
   - Schedule I
   - 藥物合成配方
