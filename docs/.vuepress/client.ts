@@ -19,4 +19,24 @@ export default defineClientConfig({
     // your custom components
     // app.component('CustomComponent', CustomComponent)
   },
+  setup() {
+    const setFavicon = (isDark: boolean) => {
+      const favicon = document.getElementById('favicon') as HTMLLinkElement
+      if (favicon) {
+        favicon.href = isDark ? '/logo-light.png' : '/logo-dark.png'
+      } else {
+        // fallback：沒找到 favicon，就創一個
+        const link = document.createElement('link')
+        link.id = 'favicon'
+        link.rel = 'icon'
+        link.type = 'image/png'
+        link.href = isDark ? '/logo-light.png' : '/logo-dark.png'
+        document.head.appendChild(link)
+      }
+    }
+
+    const media = window.matchMedia('(prefers-color-scheme: dark)')
+    setFavicon(media.matches)
+    media.addEventListener('change', e => setFavicon(e.matches))
+  },
 })

@@ -3,7 +3,6 @@
 </blockquote>
 <h2 id="問題現象" tabindex="-1"><a class="header-anchor" href="#問題現象"><span>問題現象</span></a></h2>
 <p>在使用 Nuitka 打包 Python 程序后，發現程序中的圖片資源（包括左上角圖標和工具欄圖標）無法正常顯示，而開發環境下運行卻一切正常。</p>
-<p><img src="/path/to/demo-image.png" alt=""></p>
 <h2 id="原因分析" tabindex="-1"><a class="header-anchor" href="#原因分析"><span>原因分析</span></a></h2>
 <p>通過排查發現，當使用 Nuitka 打包時：</p>
 <ol>

@@ -1,0 +1,56 @@
+// ────────────────【顯示與 HUD 設定】────────────────
+cl_teamid_overhead_mode 2                // 顯示隊友頭上 ID（2 為箭頭、名稱和生命值）
+cl_hud_color 9                           // HUD 顏色（9 為綠色）
+r_player_visibility_mode 0
+con_enable 1                             // 啟用控制台
+fps_max 300                              // 限制最大 FPS
+
+// ────────────────【準星設定】────────────────
+cl_crosshairalpha 255                   // 準星透明度
+cl_crosshaircolor 5                     // 自訂準星顏色（需搭配 RGB）
+cl_crosshaircolor_r 0
+cl_crosshaircolor_g 255
+cl_crosshaircolor_b 0
+cl_crosshair_friendly_warning 0         // 不顯示友軍警告
+cl_crosshairgap -2.4
+cl_crosshairgap_useweaponvalue 0
+cl_crosshair_recoil 0                   // 不顯示準星後座動畫
+cl_crosshairsize 2.5
+cl_crosshairstyle 4
+cl_crosshairthickness 1
+cl_crosshairdot 0
+cl_crosshair_drawoutline 0
+
+// ────────────────【視角與槍模 Viewmodel】────────────────
+viewmodel_presetpos 0                   // 自訂預設視角
+viewmodel_fov 63
+viewmodel_offset_x 1.5
+viewmodel_offset_y 2
+viewmodel_offset_z -2
+
+// ────────────────【滑鼠靈敏度】────────────────
+sensitivity 2.00
+
+// ────────────────【音效設定】────────────────
+volume 0.49                             // 主音量
+snd_headphone_eq 1                      // 耳機等化器（1 = Crisp 清晰）
+
+// ────────────────【雷達與 HUD 額外資訊】────────────────
+cl_allow_animated_avatars 0             // 停用動畫個人頭像
+cl_radar_always_centered 0              // 雷達不以玩家為中心
+cl_radar_scale 0.4                      // 雷達縮放大小
+cl_hud_telemetry_frametime_show 3       // 顯示 HUD FPS 項目
+r_show_build_info false                 // 不顯示版本資訊
+cl_predict_kill_ragdolls false          // 停用擊殺預測布娃娃物理效果
+
+// ────────────────【快捷鍵綁定】────────────────
+bind "n" "slot10"                       // 使用 decoy 或第 10 個武器
+bind "x" "use weapon_healthshot"        // 使用醫療針
+bind "mwheelup" "+jump"                 // 滑鼠滾輪上為跳躍
+bind "v" "switchhands"                  // V 鍵切換持槍手
+bind "mouse5" "+voicerecord"            // 滑鼠側鍵（右）為語音發話鍵
+unbind "mouse4"                         // 取消滑鼠側鍵（左）
+unbind "h"                              // 取消 H 鍵綁定
+
+// ────────────────【儲存配置】────────────────
+host_writeconfig

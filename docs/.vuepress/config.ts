@@ -10,7 +10,7 @@ export default defineUserConfig({
 
   head: [
     // 配置站点图标
-    ['link', { rel: 'icon', type: 'image/png', href: '/Logo.png' }],
+    ['link', { id: 'favicon', rel: 'icon', type: 'image/png', href: '/logo-light.png' }],
   ],
 
   bundler: webpackBundler(),

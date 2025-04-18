@@ -8,7 +8,8 @@ import { notes } from './notes'
  * @see https://theme-plume.vuejs.press/config/basic/
  */
 export default defineThemeConfig({
-  logo: '/Logo.png',
+  logo: '/logo-dark.png',
+  logoDark: '/logo-light.png',
 
   appearance: true,  // 配置 深色模式
 
